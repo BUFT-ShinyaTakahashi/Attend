@@ -1,0 +1,21 @@
+/* æ“ª•¶š”½“] CSS
+-----------------------------------------------------------------------------*/
+p:first-letter {
+   color: white;
+   background-color: #8A4B08;
+   padding: 1px;
+}
+
+.waku {
+  margin:10px;
+}
+
+.migi {
+  float: left;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+.clear {
+    clear: both;
+}

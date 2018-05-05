@@ -1,0 +1,182 @@
+/* :root {
+  --main-bg-color:   #FFFFFF;
+  --main-font-color: #8A4B08;
+  --main-bg-color2:  #FFFFFF;
+} */
+
+body{
+  width: 80%;
+  background: #FFFFFF;
+  margin : 5px auto;
+  font-size : 18px;
+  font-family: Meiryo;
+  color: var(--main-font-color);
+}
+
+
+header{
+  height: 150px;
+  padding: 0px 20px;
+  /* background-color: #D9E5FF	; */
+  background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+header img{
+  height: 20px;
+  padding: 20px 10px 10px 0;
+}
+
+.btn-wrapper{
+  margin-top: 30px;
+}
+
+.btn{
+  display : inline-block;
+  font-size : 12px;
+  color : #fff;
+  background-color: #191970;
+  padding : 8px 24px;
+  border-radius: 4px;
+}
+
+main{
+  height: 500px;
+  width: 100%;
+  padding: 0 20px;
+  background-color: #fff	;
+}
+
+.title h3{
+  font-size: 18px;
+  color: #191970;
+  border-bottom: 1px solid #191970;
+  margin: 10px 0 10px 0px;
+  width: 100px;
+}
+
+
+.select{
+  padding: 10px 0;
+  font-size : 12px;
+}
+
+.select a{
+  display : inline-block;
+  font-size : 10px;
+  color : #fff;
+  background-color: #191970;
+  padding : 8px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.nowYM{
+  margin:5px 0 0 0;
+  border:none;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  color : #191970;
+  background-color: #fff;
+  width: 150px;
+}
+
+.total,.totalMd{
+  margin:5px 10px 0 0;
+  font-size: 14px;
+  color : #191970;
+  background-color: #fff;
+  border-color: #191970;
+  width: 80px;
+}
+
+table{
+  /* margin : 0 40px; */
+  border-collapse: collapse;
+}
+
+table th{
+  background-color: #191970	;
+  color : #fff;
+  font-weight: normal;
+  font-size : 12px;
+}
+
+/* #line tr:first-child {
+  display: none;
+} */
+
+table thead{
+  display:block;
+}
+
+table tbody{
+  display:block;
+  overflow-y:scroll;
+  height:350px;
+  /* width: 1500px; */
+}
+
+table td{
+  background-color: #F0F8FF	;
+  color : #333;
+  font-size : 10px;
+}
+
+.hDate{
+  width: 100px;
+}
+.date{
+  width: 96px;
+}
+
+.hKbn,.kbn,.sel{
+  width: 120px;
+}
+
+.hContents{
+  width: 400px;
+}
+
+.contents{
+  width: 395px;
+}
+
+.hAmount{
+  width: 80px;
+}
+
+.amount{
+  width: 77px;
+}
+
+.hFree{
+  width: 300px;
+}
+
+.free{
+  width: 297px;
+}
+
+table th, table td {
+  border: 1px solid #D9E5FF;
+  /* padding : 2px; */
+  /* table-layout:fixed; */
+}
+
+footer{
+  height: 100px;
+  font-size: 12px;
+  padding: 0px 20px;
+  background: -moz-linear-gradient(bottom, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+.copy{
+  padding-top: 20px;
+  font-size: 12px;
+  font-style: italic;
+}

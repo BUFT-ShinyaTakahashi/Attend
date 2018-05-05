@@ -1,0 +1,110 @@
+/* :root {
+  --main-bg-color:   #FFFFFF;
+  --main-font-color: #8A4B08;
+  --main-bg-color2:  #FFFFFF;
+} */
+
+body{
+  width: 80%;
+  background: #FFFFFF;
+  margin : 5px auto;
+  font-size : 18px;
+  font-family: Meiryo;
+  color: var(--main-font-color);
+}
+
+
+header{
+  height: 150px;
+  padding: 0px 20px;
+  /* background-color: #D9E5FF	; */
+  background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+header img{
+  height: 20px;
+  padding: 20px 10px 10px 0;
+}
+
+.btn-wrapper{
+  margin-top: 30px;
+}
+
+.btn{
+  display : inline-block;
+  font-size : 12px;
+  color : #fff;
+  background-color: #191970;
+  padding : 8px 24px;
+  border-radius: 4px;
+}
+
+main{
+  height: 500px;
+  width: 100%;
+  /* padding: 0px 20px; */
+  /* background-image: url("../images/background137.jpg");
+  background-size: 100% 100%; */
+  display: block;
+}
+
+.side{
+  float:left;
+  width:15%;
+  height: 100%;
+  background-color: rgba(201,201,196,0.3);
+}
+
+.contents{
+  margin-top: 150px;
+  margin-left: 50px;
+  font-size: 12px;
+  color: #191970;
+}
+
+
+
+.info{
+  width:85%;
+  height: 100%;
+  float:right;
+  background-image: url("../images/179c9bf5072a9e4c427bfe22a8015c35_m.jpg");
+  background-size:cover;
+}
+
+
+.info h3{
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 100px;
+  font-size: 15px;
+  color: #191970;
+  border-bottom: 2px double #191970;
+  margin-bottom: 20px;
+}
+
+.info p{
+  /* padding: 0 40px; */
+  margin-left: 100px;
+  font-size: 12px;
+  color: #191970;
+  width: 400px;
+  border-bottom: 1px dotted gray;
+}
+
+footer{
+  height: 100px;
+  font-size: 12px;
+  padding: 0px 20px;
+  background: -moz-linear-gradient(bottom, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+.copy{
+  padding-top: 20px;
+  font-size: 12px;
+  font-style: italic;
+}

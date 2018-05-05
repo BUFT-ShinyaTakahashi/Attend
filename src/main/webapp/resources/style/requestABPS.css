@@ -1,0 +1,129 @@
+/* :root {
+  --main-bg-color:   #FFFFFF;
+  --main-font-color: #8A4B08;
+  --main-bg-color2:  #FFFFFF;
+} */
+
+body{
+  width: 80%;
+  background: #FFFFFF;
+  margin : 5px auto;
+  font-size : 18px;
+  font-family: Meiryo;
+  color: var(--main-font-color);
+}
+
+
+header{
+  height: 150px;
+  padding: 0px 20px;
+  /* background-color: #D9E5FF	; */
+  background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+}
+
+header img{
+  height: 20px;
+  padding: 20px 10px 10px 0;
+}
+
+.btn-wrapper{
+  margin-top: 30px;
+}
+
+.btn{
+  display : inline-block;
+  font-size : 12px;
+  color : #fff;
+  background-color: #191970;
+  padding : 8px 24px;
+  border-radius: 4px;
+}
+
+main{
+  display: block;
+  height: 500px;
+  width: 100%
+  background-color: #E6FFE9	;
+}
+
+.title h3{
+  font-size: 18px;
+  color: #191970;
+  border-bottom: 1px solid #191970;
+  margin: 10px 0 10px 20px;
+  width: 150px;
+}
+
+/* .attention p{
+  margin: 0 0 0 20px;
+  font-size: 13px;
+  color: #222;
+}
+
+.attention{
+  margin: 0 0 20px 0;
+} */
+
+.request p{
+  margin: 10px 0 0 40px;
+  font-size: 14px;
+  color: #222;
+}
+
+.date,.buyDate,{
+  width: 80px;
+  font-size: 12px;
+  color: #222;
+}
+
+.amount,.kbn{
+  margin : 0 0 0 28px;
+  width: 100px;
+  font-size: 12px;
+  color: #222;
+}
+
+.name{
+  margin : 0 0 0 14px;
+  width: 430px;
+  font-size: 12px;
+  color: #222;
+}
+
+.approval{
+  margin : 0 0 0 55px;
+  width: 100px;
+  font-size: 12px;
+  color: #222;
+}
+
+.request select{
+  /* margin: 0 0 0 60px; */
+  font-size: 12px;
+  color: #222;
+}
+
+.reason,.free{
+  margin: 0 0 0 60px;
+  width: 500px;
+  height: 50px;
+  font-size: 12px;
+  color: #222;
+}
+
+footer{
+  height: 100px;
+  font-size: 12px;
+  padding: 0px 20px;
+  background: -moz-linear-gradient(bottom, rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+  background: -webkit-linear-gradient(bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+  background: linear-gradient(to top, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+  }
+
+.copy{
+  padding-top: 20px;
+  font-size: 12px;
+  font-style: italic;
+}

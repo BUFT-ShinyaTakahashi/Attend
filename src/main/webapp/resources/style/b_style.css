@@ -1,0 +1,264 @@
+:root {
+  --main-bg-color:   #FFFFFF;
+  --main-font-color: #8A4B08;
+  --main-bg-color2:  #FFFFFF;
+}
+
+*{
+  padding : 0px ;
+  margin : 0px ;
+}
+body{
+  width: 1124px;
+  background: #FFFFFF;
+  margin : 5px auto;
+  font-size : 18px;
+  font-family: Meiryo;
+  color: var(--main-font-color);
+
+}
+
+#header{
+  background: var(--main-bg-color2);
+  padding: 20px;
+  height:150px;
+}
+#side{
+  width: 224px;
+  height: 100%
+  float: left;
+  padding: 0px;
+  background: #FFFFFF;
+}
+#footer{
+  clear: both;
+  padding: 20px;
+  background: var(--main-bg-color);
+}
+#main{
+  width: 900px;
+  float: right;
+  padding: 20px;
+  background: var(--main-bg-color);
+}
+
+
+th.type02 [scope="col"] {
+  background-color : var(--main-bg-color2);
+  color : var(--main-bg-color);
+  width : 100px;
+}
+th.type02[scope="row"]
+{
+  background-color : var(--main-bg-color);
+}
+
+td{
+	text-align : center;
+	vertical-align : middle;
+    width : 100px;
+}
+
+/**
+時刻入力テキストボックス
+**/
+input.hhmm {
+    width: 100%;
+    border:solid 1px #7f9eb2;
+    text-align: center;
+    font-size : 18px;
+    height: 30px;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+input.hhmm:focus {
+    border:solid 1px #FF0000;
+    background-color : #FFFF00;
+}
+
+/**
+勤務時間入力　区分値設定セレクトボックス
+**/
+select{
+/**
+	outline:none;
+    text-indent: 1px;
+    text-overflow: '';
+    vertical-align: middle;
+    font-size: 18px;
+    color: #274c5e;
+	width: 100%;
+	height: 40px;
+    padding: 8px 12px;
+    border:1px solid #ddd;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+**/
+    outline:none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    vertical-align: middle;
+    font-size: 18px;
+    appearance: button;
+    height: 30px;
+    padding: 1px 1px;
+    border:1px solid #ddd;
+    width:100%;
+    border-radius:3px;
+}
+select option{
+  background-color: #fff;
+  color: #333;
+}
+select::-ms-expand {
+  display: none;
+}
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #828c9a;
+}
+
+select.kinmukbn {
+	width: 100%;
+    border:solid 1px #7f9eb2;
+    text-align: center;
+    font-size : 18px;
+
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+select.kinmukbn:focus {
+    border:solid 1px #FF0000;
+    background-color : #FFFF00;
+}
+
+/* 枠
+-----------------------------------------------------------------------------*/
+.box {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px var(--main-font-color);
+    border-radius: 8px;
+}
+.box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: var(--main-bg-color);
+    color: var(--main-font-color);
+    font-weight: bold;
+}
+.box p {
+    margin: 0;
+    padding: 0;
+}
+
+/* アコーディオン
+-----------------------------------------------------------------------------*/
+dl.accord{
+  width:224px;
+}
+
+dl.accord dt{
+  background-color:var(--main-bg-color1);
+  color:var(--main-font-color);
+  font-weight:bold;
+  padding:5px 5px;
+  margin-bottom:1px;
+  cursor:pointer;
+}
+
+dl.accord dd{
+  border:0px;
+  margin:1px 0px;
+  padding:5px 5px;
+}
+
+/* 表
+-----------------------------------------------------------------------------*/
+table.type01 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+
+}
+table.type01 thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+}
+table.type01 tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+table.type01 td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+
+/* テキストボックス CSS
+-----------------------------------------------------------------------------*/
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    border-color: #C9C9C9;
+    -webkit-box-shadow: 0px 0px 6px rgba(255,15,135,.7);
+    -moz-box-shadow: 0px 0px 6px rgba(255,15,135,.7);
+    box-shadow: 0px 0px 6px rgba(255,15,135,.7);
+}
+
+
+
+
+/* ラジオボタン CSS
+-----------------------------------------------------------------------------*/
+.sample input{
+	display: none;
+}
+.sample label{
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 80px;
+	margin: 0;
+	padding: 12px 5px;
+	border-right: 1px solid #abb2b7;
+	background: #bdc3c7;
+	color: #555e64;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+.sample label:first-of-type{
+	border-radius: 3px 0 0 3px;
+}
+.sample label:last-of-type{
+	border-right: 0px;
+	border-radius: 0 3px 3px 0;
+}
+.sample input[type="radio"]:checked + label {
+	background-color: #a1b91d;
+	color: #fff;
+}
+

@@ -1,0 +1,1 @@
+<div class = "copy">copylight 2018 BUFFORT All Right Reserved</div>

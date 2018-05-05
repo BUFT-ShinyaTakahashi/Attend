@@ -1,0 +1,13 @@
+hr {
+clear: both;
+}
+
+div.btn-box {
+	text-align: center;
+}
+
+div.gazo-box {
+      display:inline-block;
+  vertical-align: middle;
+    padding: 10px;
+}
