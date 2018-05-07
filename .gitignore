@@ -1,9 +1,11 @@
 # .settings フォルダは要らない
 .settings/
 
+# target フォルダは要らない
+target/
+
+# Eclipseの設定ファイルは管理対象外
 .classpath
 .project
 .springBeans
 
-# target フォルダは要らない
-target/
