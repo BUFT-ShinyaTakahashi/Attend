@@ -1,0 +1,9 @@
+# .settings フォルダは要らない
+.settings/
+
+.classpath
+.project
+.springBeans
+
+# target フォルダは要らない
+target/
