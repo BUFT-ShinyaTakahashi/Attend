@@ -4,7 +4,7 @@
 
 <link rel="stylesheet" type="text/css" href="<c:url value="resources/style/person.css" />">
 
-個人別アイドル検索
+
 
 <form:form action="${pageContext.request.contextPath}/person">
 

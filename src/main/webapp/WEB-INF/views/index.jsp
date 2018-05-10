@@ -27,37 +27,6 @@
 <hr>
 
 
-<div class='box'>
-    <span class='box-title'>お知らせ</span>
-    <p>
-    ◆ <a href=''>[ メンテナンスのお知らせ ] 2017/12/1～2017/12/3の期間、サイトメンテナンスとなります。</a><br>
-    ◆ <a href=''>[ 新規登録情報 ] カプ式会社ハイパーモチベーションが新規登録されました。</a>
-    </p>
-</div>
-
-<div class='box'>
-    <span class='box-title'>更新情報</span>
-    <p>
-    ◆ <a href=''>[ AKB48 ] 大島優子のページが更新されました。</a><br>
-    ◆ <a href=''>[ AKB48 ] 前田敦子のページが更新されました。</a><br>
-    ◆ <a href=''>[ カプ式会社ハイパーモチベーション ] 小澤綾乃のページが更新されました。</a><br>
-    </p>
-</div>
-
-<hr>
-<h1>
-	イベント情報①
-</h1>
-<br><br><br><br><br><br><br>
-
-
-<hr>
-<h1>
-	イベント情報②
-</h1>
-<br><br><br><br><br><br><br>
-
-
 
 <table>
 	<thead>

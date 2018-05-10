@@ -8,4 +8,11 @@
 	<a class = "btn" href="#" style="text-decoration: none;">勤怠管理</a>
 	<a class = "btn" href="#" style="text-decoration: none;">各種申請</a>
 	<a class = "btn" href="#" style="text-decoration: none;">管理機能</a>
+
+<form:form action="${pageContext.request.contextPath}/attendance">
+<button type="submit" name="attendance">
+	管理機能
+</button>
+</form:form>
+
 </div>
