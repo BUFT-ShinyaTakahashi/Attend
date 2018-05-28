@@ -1,11 +1,11 @@
-# .settings ƒtƒHƒ‹ƒ_‚Í—v‚ç‚È‚¢
+# .settings ï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½Í—vï¿½ï¿½È‚ï¿½
 .settings/
 
-# target ƒtƒHƒ‹ƒ_‚Í—v‚ç‚È‚¢
+# target ï¿½tï¿½Hï¿½ï¿½ï¿½_ï¿½Í—vï¿½ï¿½È‚ï¿½
 target/
 
-# Eclipse‚Ìİ’èƒtƒ@ƒCƒ‹‚ÍŠÇ—‘ÎÛŠO
-.classpath
-.project
+# Eclipseï¿½Ìİ’ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ÍŠÇ—ï¿½ï¿½ÎÛŠO
+#.classpath
+#.project
 .springBeans
 
