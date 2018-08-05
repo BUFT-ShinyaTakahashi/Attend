@@ -1,8 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf8" pageEncoding="utf8"%>
 
-<c:out value="${userid}" />
-<c:out value="${password}" />
-
 <form:form action="">
 
 <div class = "info">

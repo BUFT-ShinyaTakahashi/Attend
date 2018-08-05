@@ -49,11 +49,30 @@ main{
 }
 
 .title h3{
+  display : inline-block;
   font-size: 18px;
   color: #191970;
   border-bottom: 1px solid #191970;
   margin: 10px 0 10px 20px;
   width: 150px;
+  float:left;
+}
+
+.apl{
+  display : inline-block;
+  font-size : 12px;
+  color : #fff;
+  background-color: #191970;
+  padding : 8px 24px;
+  margin-top: 5px;
+  margin-left: 50px;
+  border-radius: 4px;
+}
+
+.aplInfo{
+  font-size: 14px;
+  color: #222;
+  margin: 10px 0 10px 40px;
 }
 
 /* .attention p{

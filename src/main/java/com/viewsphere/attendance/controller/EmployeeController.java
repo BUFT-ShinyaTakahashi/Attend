@@ -6,21 +6,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping("/home")
-public class HomeController {
+@RequestMapping("/Employee")
+public class EmployeeController {
     @RequestMapping(method = RequestMethod.GET)
     public String index(Model model) {
-        return "Home";
+        return "EmployeeList";
     }
 
     @RequestMapping(params = "person", method = RequestMethod.POST)
     public String person(Model model) {
-    	return "Home";
+    	return "EmployeeList";
     }
 
     @RequestMapping(params = "group", method = RequestMethod.POST)
     public String group(Model model) {
-    	return "Home";
+    	return "EmployeeList";
     }
 
 }

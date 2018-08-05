@@ -48,6 +48,8 @@ main{
 }
 
 .title h3{
+  display: inline-block;
+  float:left;
   font-size: 18px;
   color: #191970;
   border-bottom: 1px solid #191970;
@@ -55,14 +57,26 @@ main{
   width: 150px;
 }
 
+.apl{
+  font-size : 12px;
+  color : #fff;
+  background-color: #191970;
+  padding : 8px 24px;
+  margin-top: 5px;
+  margin-left: 50px;
+  border-radius: 4px;
+  float:left;
+}
+
+.attention{
+   clear: left;
+   margin: 0 0 20px 0;
+}
+
 .attention p{
   margin: 0 0 0 20px;
   font-size: 13px;
   color: #222;
-}
-
-.attention{
-  margin: 0 0 20px 0;
 }
 
 .req{
@@ -77,6 +91,11 @@ main{
   color: #222;
 }
 
+.aplInfo{
+  margin: 0 0 0 40px;
+  font-size: 12px;
+  color: #222;
+}
 
 table{
   border-collapse: collapse;
@@ -84,7 +103,7 @@ table{
 }
 
 .list{
-  margin: 20px 0 0 40px;
+  margin: 10px 0 0 40px;
   font-size : 12px;
   width: 1050px;
 }

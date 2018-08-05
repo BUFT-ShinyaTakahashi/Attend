@@ -106,6 +106,7 @@ table{
 }
 
 #list_wrapper{
+  width: 1230px;
   font-size: 11px;
 }
 
@@ -116,12 +117,12 @@ table{
 
 
 .hName,.dName{
-  width: 80px;
+  width: 70px;
   font-size: 10px;
 }
 
 .hNo,.dNo{
-  width: 80px;
+  width: 70px;
   font-size: 10px;
 }
 
@@ -130,28 +131,22 @@ table{
   font-size: 10px;
 }
 
-/* .dDiv,.dGroup{
-  border:none;
-} */
-
-.hType,.hAplNo,.hAuthorizer,.hStatus,.hStatus,.dType,.dAplNo,.dAuthorizer,.dStatus{
-  width: 100px;
-  /* border:none; */
+.hType,.hAplDay,.hFirstAuth,.hFirstAuthDay,.hSecondAuth,.hSecondAuthDay,.hStatus,.dType,.dAplDay,.hFirstAuth,.hFirstAuthDay,.hSecondAuth,.hSecondAuthDay,.dStatus{
+  width: 80px;
   font-size: 10px;
-  /* text-align: center; */
-  /* border: 1px #555 solid; */
+}
+
+.hType,.dType{
+  width: 100px;
+  font-size: 10px;
 }
 
 table th{
-  /* background-color: #F0F8FF; */
   background-color: #191970;
   color :#FFF;
   font-weight: normal;
   border:0.1px #DCDCDC solid;
   border-collapse: collapse;
-
-  /* font-size : 12px;
-  padding: 5px; */
 }
 
 table td{
@@ -159,9 +154,6 @@ table td{
   color : #191970;
   border:0.1px #DCDCDC solid;
   border-collapse: collapse;
-
-  /* font-size : 10px;
-  padding: 5px; */
 }
 
 footer{

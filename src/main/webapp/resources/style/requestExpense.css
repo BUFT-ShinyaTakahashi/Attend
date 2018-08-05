@@ -49,6 +49,8 @@ main{
 }
 
 .title h3{
+  display: inline-block;
+  float:left;
   font-size: 18px;
   color: #191970;
   border-bottom: 1px solid #191970;
@@ -56,6 +58,22 @@ main{
   width: 100px;
 }
 
+.apl{
+  font-size : 12px;
+  color : #fff;
+  background-color: #191970;
+  padding : 8px 24px;
+  margin-top: 5px;
+  margin-left: 50px;
+  border-radius: 4px;
+  float:left;
+}
+
+.aplInfo{
+  clear: left;
+  font-size: 13px;
+  color: #222;
+}
 
 .select{
   padding: 10px 0;

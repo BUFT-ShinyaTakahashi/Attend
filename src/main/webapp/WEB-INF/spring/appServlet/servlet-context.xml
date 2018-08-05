@@ -50,8 +50,8 @@
     <beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
 		<beans:property name="driverClassName" value="org.gjt.mm.mysql.Driver" />
 		<beans:property name="url" value="jdbc:mysql://127.0.0.1:3306/test" />
-		<beans:property name="username" value="root" /><!-- ユーザIDを入力 -->
-		<beans:property name="password" value="0000" /><!-- パスワードを入力 -->
+		<beans:property name="username" value="testuser" /><!-- ユーザIDを入力 -->
+		<beans:property name="password" value="0556709" /><!-- パスワードを入力 -->
 	</beans:bean>
 
 	<beans:bean class="org.springframework.jdbc.core.JdbcTemplate">
